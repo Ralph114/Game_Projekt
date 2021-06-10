@@ -13,7 +13,7 @@ namespace Engine.ViewModels
         public GameSession()
         {
             CurrentPlayer = new Player();
-            CurrentPlayer.Name = "John";
+            CurrentPlayer.Name = "Pete";
             CurrentPlayer.CharacterClass = "Fighter";
             CurrentPlayer.HitPoints = 10;
             CurrentPlayer.Gold = 1000000;
@@ -25,7 +25,7 @@ namespace Engine.ViewModels
             CurrentLocation.XCoordinate = 0;
             CurrentLocation.YCoordinate = -1;
             CurrentLocation.Description = "Hier lebst du!";
-            CurrentLocation.ImageName = "/Engine/Images/Locations/haus.jpg";
+            CurrentLocation.ImageName = "/Engine/Images/Locations/hütte.jpg";
         }
     }
 }

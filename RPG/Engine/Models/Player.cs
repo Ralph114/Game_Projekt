@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Engine.Models
 {
-    public class Player : INotifyPropertyChanged
+    
+    public class Player : INotifyPropertyChanged //schickt eine Benachrichtigung falls ein Wert (value) geändert wird
     {
         private string _name;
         private string _characterClass;
